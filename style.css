@@ -6,7 +6,7 @@
 }
 .navbar{
     height: 60px;
-    background-color: #131921;
+    background-color: #000000;
     color: aliceblue;
     display: flex;
 }
@@ -134,4 +134,149 @@
 .cart{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+/* second navbar */
+
+.navbar-second{
+    height: 55px;
+    background-color: #232F3E;
+    display: flex;
+}
+
+/* box1 */
+
+.section1{
+    color: #faf9f9;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.section2{
+    color: #E6E6E6;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+/* box2 */
+
+.deal{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.customer{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.prime{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.gift{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.sell{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.registry{
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+/* hero section */
+
+.hero {
+    width: 1279px;
+    height: 380px;
+
+    margin-top: 0px;
+
+    background-image: url("./hero.png");
+    background-repeat: no-repeat;
+
+    /* 👈 image ko left/right adjust karo */
+    background-position: 2px center;
+
+    /* image ka size */
+    background-size: 1290px 380px;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-message{
+    background-color: white;
+    margin-bottom: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-top: 250px;
+    
+
+}
+
+.hero-message a {
+    color: #2162A1;
+
+}
+
+/* shop-section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;  
+    background-color: #DDBFEF; 
+}
+
+.box{
+    
+    background-color: white;
+}
+
+.box-img{
+    height: 350px;
+    width: 280px;
+    margin-top: 5px;
+    
+}
+
+.box-contact {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shop-gap{
+    margin-top: 5px;
+    color: #2162A1;
+}
+
+/* second box */
+
+.second-box{
+    display: flex;
+    justify-content: space-evenly;  
+    background-color: #DDBFEF; 
 }
