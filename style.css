@@ -450,3 +450,27 @@ body {
 
     flex-wrap: wrap;
 }
+
+.foot-panel1{
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.89rem;
+}
+
+.foot-panel2{
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    margin-top: 20px;
+    color: #dddddd;
+}
